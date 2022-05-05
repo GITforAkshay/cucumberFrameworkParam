@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="22.491">
+    <testcase classname="Checkout experience" name="Items added to cart for checkout" time="21.802">
+        <system-out>
+            <![CDATA[Given User is in the Greencart Landing Page.................................passed
+When User searches with the item short name Tom in Landing Page.............passed
+And Extracts the actual product name from Landing Page......................passed
+And Added "3" items of the selected product into the cart...................passed
+Then User proceeds to checkout and validate the Tom items in Checkout Page..passed
+And Verify user has ability to enter promo code and place the order.........passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Checkout experience" name="Items added to cart for checkout 2" time="21.836">
+        <system-out>
+            <![CDATA[Given User is in the Greencart Landing Page.................................passed
+When User searches with the item short name Beet in Landing Page............passed
+And Extracts the actual product name from Landing Page......................passed
+And Added "3" items of the selected product into the cart...................passed
+Then User proceeds to checkout and validate the Beet items in Checkout Page.passed
+And Verify user has ability to enter promo code and place the order.........passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Checkout experience" name="Items added to cart for checkout 3" time="22.1">
+        <system-out>
+            <![CDATA[Given User is in the Greencart Landing Page.................................passed
+When User searches with the item short name Cap in Landing Page.............passed
+And Extracts the actual product name from Landing Page......................passed
+And Added "3" items of the selected product into the cart...................passed
+Then User proceeds to checkout and validate the Cap items in Checkout Page..passed
+And Verify user has ability to enter promo code and place the order.........passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="GreenCart Search experience" name="Item search experience" time="17.32">
+        <system-out>
+            <![CDATA[Given User is in the Greencart Landing Page.................................passed
+When User searches with the item short name Tom in Landing Page.............passed
+And Extracts the actual product name from Landing Page......................passed
+And User moves to Offers Page...............................................passed
+Then User searches with the same item short name Tom in Offers Page.........passed
+And Check whether same items are being displayed in the Offers Page.........passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
